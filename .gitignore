@@ -1,4 +1,10 @@
 /node_modules
-/package-lock.json
-/index.md
+
+#ignore the index.md file
+index.md
+
+#ignore all json files
+.json
+
+#ignore the image
 *.jpg
