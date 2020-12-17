@@ -1,4 +1,4 @@
-node_modules
-package-lock.json
-index.md
-hero.jpg
+/node_modules
+/package-lock.json
+/index.md
+/hero.jpg
