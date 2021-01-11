@@ -7,6 +7,8 @@ nacl.util = require('tweetnacl-util');
 const david = nacl.box.keyPair();
 const viktoria = nacl.box.keyPair();
 
+console.log(david.publicKey,david.secretKey);
+
 function davidEncrypting(){
     const one_time_code = nacl.randomBytes(24);
 
